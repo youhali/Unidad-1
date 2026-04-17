@@ -1,35 +1,24 @@
-<style>
-a:link { color: green; background-color: transparent; text-decoration: none; }
-a:visited { color: pink; background-color: transparent; text-decoration: none; }
-a:hover { color: red; background-color: transparent; text-decoration: underline; }
-a:active { color: yellow; background-color: transparent; text-decoration: underline; }
-</style>
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Ejemplo HTML - Mapeo de imagen</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo HTML - Mapeo de imagen</title>
+    <link rel="stylesheet" href="css/actividad38a.css">
 </head>
 <body>
 
-  <h1>Ejemplo de mapeo de imagen</h1>
+    <h1>Ejemplo de mapeo de imagen</h1>
 
-  <!-- Imagen con un mapa asociado -->
-  <img src="Imag/caos3.jpg" alt="Imagen con mapa" usemap="#miMapa" width="500">
+    <img src="Imag/caos3.jpg" alt="Imagen con mapa" usemap="#miMapa" width="500">
 
-  <!-- Definición del mapa -->
-  <map name="miMapa">
-    <!-- Área rectangular -->
-    <area shape="rect" coords="34,44,270,350" href="https://www.google.com" alt="Google">
-    
-    <!-- Área circular -->
-    <area shape="circle" coords="337,300,44" href="https://www.wikipedia.org" alt="Wikipedia">
-    
-    <!-- Área poligonal -->
-    <area shape="poly" coords="100,100,200,200,300,100" href="https://www.microsoft.com" alt="Microsoft">
-  </map>
+    <map name="miMapa">
+        <area shape="rect" coords="34,44,270,350" href="https://ben10.fandom.com/es/wiki/Alien_X_(Reboot)" alt="Alien x">
+        
+        <area shape="circle" coords="337,300,44" href="https://powerpuff.fandom.com/es/wiki/%C3%89L" alt="El">
+            </map>
 
-  <p>Haz clic en diferentes partes de la imagen para ir a distintos sitios web.</p>
+    <p>Haz clic en diferentes partes de la imagen para ir a distintos sitios web.</p>
 
 </body>
 </html>

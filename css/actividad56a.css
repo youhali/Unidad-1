@@ -1,0 +1,22 @@
+/* Estilo base del párrafo */
+#demo {
+    font-family: Arial, sans-serif;
+    transition: all 0.3s ease; 
+    padding: 10px;
+}
+
+.estilo-grande {
+    font-size: 35px;
+    color: #00ff00;
+    background-color: #1a1a1a;
+    border: 2px solid #00ff00;
+    font-weight: bold;
+}
+
+/* Segundo estilo: Normal y discreto */
+.estilo-normal {
+    font-size: 16px;
+    color: #333;
+    background-color: transparent;
+    border: none;
+}

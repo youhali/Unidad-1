@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Ejemplo JavaScript - Cambiar estilo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo JavaScript - Cambiar estilo</title>
+    <link rel="stylesheet" href="css/actividad56a.css">
 </head>
 <body>
 
-  <h1>Cambiar un estilo con JavaScript:</h1>
+    <h1>Cambiar un estilo con JavaScript:</h1>
 
-  <button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">
-    Agrandar texto
-  </button>
+    <button type="button" onclick="document.getElementById('demo').className='estilo-grande'">
+        Activar modo Épico
+    </button>
 
-  <button type="button" onclick="document.getElementById('demo').style.fontSize='16px'">
-    Regresar texto
-  </button>
+    <button type="button" onclick="document.getElementById('demo').className='estilo-normal'">
+        Regresar a normal
+    </button>
 
-  <p id="demo">JEste sera el texto que se modificara </p>
+    <p id="demo" class="estilo-normal">Este será el texto que se modificará.</p>
 
 </body>
 </html>
