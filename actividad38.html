@@ -1,0 +1,35 @@
+<style>
+a:link { color: green; background-color: transparent; text-decoration: none; }
+a:visited { color: pink; background-color: transparent; text-decoration: none; }
+a:hover { color: red; background-color: transparent; text-decoration: underline; }
+a:active { color: yellow; background-color: transparent; text-decoration: underline; }
+</style>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo HTML - Mapeo de imagen</title>
+</head>
+<body>
+
+  <h1>Ejemplo de mapeo de imagen</h1>
+
+  <!-- Imagen con un mapa asociado -->
+  <img src="Imag/caos3.jpg" alt="Imagen con mapa" usemap="#miMapa" width="500">
+
+  <!-- Definición del mapa -->
+  <map name="miMapa">
+    <!-- Área rectangular -->
+    <area shape="rect" coords="34,44,270,350" href="https://www.google.com" alt="Google">
+    
+    <!-- Área circular -->
+    <area shape="circle" coords="337,300,44" href="https://www.wikipedia.org" alt="Wikipedia">
+    
+    <!-- Área poligonal -->
+    <area shape="poly" coords="100,100,200,200,300,100" href="https://www.microsoft.com" alt="Microsoft">
+  </map>
+
+  <p>Haz clic en diferentes partes de la imagen para ir a distintos sitios web.</p>
+
+</body>
+</html>
